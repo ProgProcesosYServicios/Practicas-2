@@ -72,8 +72,7 @@ public class Dekker1 implements Runnable {
 				//System.out.println("[" + numHebra + "]: \t salgo (" + _suma + ")");
 			salidaSeccionCritica(numHebra);
 		}
-		
-		
+
 
 	} // run
 	
@@ -181,6 +180,5 @@ public class Dekker1 implements Runnable {
 	 */
 	private volatile long _suma = 0;
 	
-	
-	
+
 } // Dekker1
