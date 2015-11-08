@@ -1,4 +1,5 @@
 package p09.b;
+
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
