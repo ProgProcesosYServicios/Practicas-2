@@ -24,7 +24,7 @@ public class Clase implements Runnable {
 		return result;
 	}
 
-	@Override
+
 	public void run() {
 		int numHebra;
 		if (Thread.currentThread().getName().equals("Hebra1"))
